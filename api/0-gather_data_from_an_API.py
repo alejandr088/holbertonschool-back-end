@@ -24,8 +24,8 @@ def get_id(id):
             completedTasks += 1
             completedTitles.append(task['title'])
 
-    print(f'Employee {employeeName} is done with\
-tasks({completedTasks}/{totalTasks}):')
+    print(f'Employee {employeeName} is done with tasks'
+          f'({completedTasks}/{totalTasks}):')
 
     for title in completedTitles:
         print(f'\t {title}')
